@@ -52,7 +52,7 @@ var capital_cities = [ "tbilisi","washington","madrid","paris","london","berlin"
  
  function checkIfGameLost() {
    if (mistakes === maxWrong) {
-     document.getElementById('words').innerHTML = `The answer was:  + ${answer}`;
+     document.getElementById('words').innerHTML = `The answer was:   ${answer}`;
      document.getElementById('keyboard').innerHTML = 'You Lost!!!';
    }
  }
