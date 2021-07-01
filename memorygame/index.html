@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEMORY GAME</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="game">
+    <header>
+      <h1 class="text-center mt-4 mb-2 headTag">MEMORY CARD GAME</h1>
+    </header>
+
+    <section class="container mx-auto">
+      <section class="mx-auto">
+        <div class="row">
+          
+        </div>
+
+        <div id="won" class="text-center">
+          <h1>YOU WON, PRESS CONTINUE TO PLAY AGAIN</h1>
+          <button class="btn" id="playAgain">CONTINUE</button>
+        </div>
+
+        <section class="memory-game">
+          <div class="memory-card" data-cards="card1">
+            <img class="front-face" src="Images/KA.svg" alt="ka" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+          <div class="memory-card" data-cards="card1">
+            <img class="front-face" src="Images/KA.svg" alt="ka" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+
+          <div class="memory-card" data-cards="card2">
+            <img class="front-face" src="Images/KY.svg" alt="ky" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+          <div class="memory-card" data-cards="card2">
+            <img class="front-face" src="Images/KY.svg" alt="ky" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+
+          <div class="memory-card" data-cards="card3">
+            <img class="front-face" src="Images/AA.svg" alt="aa" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+          <div class="memory-card" data-cards="card3">
+            <img class="front-face" src="Images/AA.svg" alt="aa" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+
+          <div class="memory-card" data-cards="card4">
+            <img class="front-face" src="Images/AG.svg" alt="ag" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+          <div class="memory-card" data-cards="card4">
+            <img class="front-face" src="Images/AG.svg" alt="ag" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+
+          <div class="memory-card" data-cards="card5">
+            <img class="front-face" src="Images/AJ.svg" alt="aj" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+          <div class="memory-card" data-cards="card5">
+            <img class="front-face" src="Images/AJ.svg" alt="aj" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+
+          <div class="memory-card" data-cards="card6">
+            <img class="front-face" src="Images/AY.svg" alt="ay" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+          <div class="memory-card" data-cards="card6">
+            <img class="front-face" src="Images/AY.svg" alt="ay" />
+            <img class="back-face" src="Images/red.png" alt="back" />
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>ROCK PAPER SCISSOR</h1>
+        <div class="game">
+            <div class="scoreboard">
+                <p>PLAYER : <span id ="pscore">0</span> - <span id="cscore">0</span> : COM </p>
+            </div>
+            <div class="gm"></div>
+            <div class="imgs">
+                <div class="player">
+                    <div class="pimg">
+                        <img src="img/h1.png" id="pmg">
+                    </div>
+                    <div class="btns">
+                        <button onclick="rock()">ROCK</button>
+                        <button onclick="pap()">PAPER</button>
+                        <button onclick="sciss()">SCISSORS</button>
+                    </div>
+                </div>
+                <div class="clearbt"> <button onclick="clearScore()" class="clearbtn">Reset Score</button></div>
+                    <div class="com">
+                        <div class="cimg">
+                        <img src="img/h1.png" id="cmg">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
